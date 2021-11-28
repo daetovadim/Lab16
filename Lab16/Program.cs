@@ -22,7 +22,7 @@ namespace Lab16
                 Encoder = JavaScriptEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Cyrillic)
             };
             
-            int arraysLength = 2;
+            int arraysLength = 5;
             Product[] products = new Product[arraysLength];
             string[] jsonStrings = new string[arraysLength];
             try
